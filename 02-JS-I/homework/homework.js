@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 4
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
+  return "str";
 }
 
 function suma(x, y) {
@@ -160,7 +160,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return "Luciano Muga"
+  return "Luciano muga"
 }
 
 function obtenerSaludo(nombre) {
