@@ -94,7 +94,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return(num)
+  return num
 }
 
 function esImpar(num) {
