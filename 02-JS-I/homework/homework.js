@@ -74,7 +74,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
- return if(num < 90)
+ return (num < 90)
 }
 
 
@@ -109,13 +109,13 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return match.pow(num)
+  return match.pow(num, 2)
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return(num)
+  return match.pow(num, 3)
 }
 
 function elevar(num, exponent) {
