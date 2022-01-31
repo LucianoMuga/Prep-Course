@@ -75,6 +75,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return if(num < 90)
+  
 }
 
 function mayorQueCincuenta(num) {
