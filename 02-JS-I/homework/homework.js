@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 4
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return "str";
+  return str;
 }
 
 function suma(x, y) {
@@ -67,7 +67,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return(srt1, str2)
+  return(srt1 === str2)
 }
 
 function menosQueNoventa(num) {
