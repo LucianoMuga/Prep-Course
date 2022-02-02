@@ -110,10 +110,10 @@ function esImpar(num) {
   // Tu código:
 if(num % 2 === 1){
  return true;
- }else{ 
+ }else{
  return false;
  }
-
+}
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
