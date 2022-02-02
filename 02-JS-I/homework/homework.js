@@ -74,11 +74,11 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
- if(num < 90){
- return true
-}else{
-return false
-}
+  if(num < 90){
+    return true;
+   }else{
+    return false;
+   }
 
 
 function mayorQueCincuenta(num) {
@@ -99,20 +99,20 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 if(num % 2 === 0){
-return true
-}else{
-return false
-}
+  return true;
+ }else{
+ return false;
+ }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
 if(num % 2 === 1){
-return true
-}else{ 
-return false
-}
+ return true;
+ }else{ 
+ return false;
+ }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
@@ -148,7 +148,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random(0)
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -156,7 +156,12 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  return(numero)
+  if(numero > 0){
+    return "Es positivo"
+  } else if(numero < 0){
+    return "Es negativo"
+  }  else{
+    return false;
 }
 
 function agregarSimboloExclamacion(str) {
