@@ -118,7 +118,7 @@ return "fizzbuzz"
 }else if(numero % 5 === 0){
   return "buzz"
 }  else{ 
-  return numero
+  return (numero);
 }
 }
 
