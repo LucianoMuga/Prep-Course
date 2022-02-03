@@ -78,9 +78,9 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero === 10 || numero === 5){
-  return "true"
+  return true;
 }  else{
-  return "false"
+  return false;
 }
 }
 
@@ -88,7 +88,9 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  return numero < 50 && numero > 20
+  if(numero < 50 && numero > 20) return true;
+  return false
+
 }
 
 function esEntero(numero) {
