@@ -175,7 +175,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinados = nombres + 'Henry' + apellido
+  var combinados = nombres + '' + apellido;
   return combinados;
 }
 
@@ -189,7 +189,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return alto * ancho;
+  return (alto * ancho);
 }
 
 
