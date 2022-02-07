@@ -162,9 +162,9 @@ function esVerdadero(valor){
   //Escribe tu código aquí
   if(valor === true){
     return "Soy verdadero"
- } else{
-  return "Soy falsa"
-}
+  } else {
+ return "Soy falso"
+  }
 }
 
 function tablaDelSeis(){
