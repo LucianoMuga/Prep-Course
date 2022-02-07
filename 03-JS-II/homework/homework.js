@@ -170,9 +170,9 @@ function esVerdadero(valor){
   //Escribe tu código aquí
   if(valor === true){
     return "Soy verdadero"
-  } 
+  } else if (varlor === false){
  return "Soy falso"
-  
+  } 
 }
 
 function tablaDelSeis(){
