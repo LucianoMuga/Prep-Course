@@ -204,7 +204,7 @@ function doWhile(numero) {
 var x = 0;
 do{
     numero = numero + 5  
-    x = x + 1;
+    x = x + 1
  }
  while (x < 8)
  return numero
