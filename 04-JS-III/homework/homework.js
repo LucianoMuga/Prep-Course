@@ -30,7 +30,8 @@ var newarray = [];
 for(var i = 0; i <= array.lenght; i++){
   newarray[i] = array[i] + 1;
 }
-return newarray
+return array
+
 }
 
 
