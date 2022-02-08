@@ -17,8 +17,8 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  array.lenght
-  return array
+  array.lenght;
+  return array;
 }
 
 
@@ -44,8 +44,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array.unshit(elemento)
-  return array
+  array.unshift(elemento);
+  return array;
 }
 
 
