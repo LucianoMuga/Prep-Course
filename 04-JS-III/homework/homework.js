@@ -253,17 +253,16 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var Array = []
-  
-  suma = numero;
+  suma = numero
   for(var i = 0; i < 10; i++){
     if(i === 5){
     continue
   } else {
     suma = suma + 2;
-    array.push(suma);
+    Array.push(suma);
   }
   }
-  return array;
+  return Array;
 }
 
 
