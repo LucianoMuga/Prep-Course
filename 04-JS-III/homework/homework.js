@@ -54,7 +54,6 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   return array;
 
 }
-consol.log(agergarItemAlComienzoDelArray)
 
 function dePalabrasAFrase(palabras) {
   // "palabras" es un array de strings/cadenas
@@ -62,7 +61,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-
+return palabras.join(" ")
 }
 
 
