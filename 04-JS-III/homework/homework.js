@@ -152,8 +152,9 @@ function diaDeLaSemana(numeroDeDia) {
   //Escribe tu código aquí   
   if(numeroDeDia === 1 || numeroDeDia === 7 ){
     return "Es fin de semana"
-  }
+  } else{
   return "Es dia Laboral"
+  }
 } 
 
 
@@ -176,7 +177,11 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  
+  for(var i = 1; i < arreglo.length; i++)
+  if(arreglo[0] !== arreglo[i]){
+  return false
+  }
+  return true
 } 
 
 
