@@ -210,7 +210,7 @@ function mayorACien(array) {
   // Tu código:
   var nuevoArray = [];
   for(var i = 0; i < array.length; i++){
-    if(array[1] < 100) 
+    if(array[1] > 100) 
     nuevoArray.push(array[i]);
   }
 return nuevoArray;
