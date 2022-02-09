@@ -98,7 +98,7 @@ function promedioResultadosTest(resultadosTest) {
   for(var i=0; i< resultadosTest.length; i++){
     acumulador = acumulador + resultadosTest[i]
   }
-  var promedio = puntajes / resultadosTest.length
+  var promedio = acumulador / resultadosTest.length
   return promedio
 }
 
