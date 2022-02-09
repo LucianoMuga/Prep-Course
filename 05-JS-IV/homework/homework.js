@@ -35,7 +35,7 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto.metodo
+  
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
@@ -50,6 +50,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
+  objeto[unaPropiedad]
   delete objeto.unaPropiedad
   return objeto
 }
@@ -59,9 +60,9 @@ function nuevoUsuario(nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var obj = {
-    nombre: "Luciano Muga",
-    email: "lucho.muga2@gmail.com",
-    password: "kteimporta",
+    nombre: 
+    email
+    
   }
   return obj
 
