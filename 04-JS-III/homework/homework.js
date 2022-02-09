@@ -27,11 +27,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-var nuevoArray = [];
+
 for(var i = 0; i < array.length; i++){
-  nuevoArray[i] = array[i] + 1;
+  array[i] = array[i] + 1;
 }
-return nuevoArray;
+return array;
 
 }
 
@@ -40,7 +40,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array[array.length]= "elemento";
+  array[array.length] = "elemento";
   return array;
 }
 
@@ -71,6 +71,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  
 }
 
 
@@ -78,6 +79,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  
 }
 
 
@@ -85,6 +87,7 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  
 }
 
 
