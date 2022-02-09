@@ -95,7 +95,7 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
   var acumulador = 0
-  for(var i = 0; i < resultadosTest.length; i++){
+  for(var i=0; i< resultadosTest.length; i++){
     acumulador = acumulador + resultadosTest[i]
   }
   var promedio = puntajes / resultadosTest.length
