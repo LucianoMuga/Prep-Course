@@ -23,6 +23,11 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
+  var objeto = {
+    objeto: 'null',
+    property: "property"
+  }
+  return objeto
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -30,6 +35,7 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
+  objeto.metodo
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
@@ -44,12 +50,20 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
+  delete objeto.unaPropiedad
+  return objeto
 }
 
 function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
+  var obj = {
+    nombre: "Luciano Muga",
+    email: "lucho.muga2@gmail.com",
+    password: "kteimporta",
+  }
+  return obj
 
 }
 
