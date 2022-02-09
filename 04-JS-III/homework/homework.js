@@ -136,9 +136,12 @@ return acumulador
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-  
+  var contador = 0
 for(var i = 0; i < arreglo.lentgh; i++)
-return arreglo
+if(arreglo [i] > 18){
+ contador = contador + 1
+}
+return contador
 }
 
 
