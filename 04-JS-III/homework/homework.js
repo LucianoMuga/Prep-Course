@@ -51,7 +51,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array.unshift('elemento');
+  array.unshift(elemento);
   return array;
   
 
@@ -85,8 +85,8 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
  var suma = 0
-  for(var i = 0; i < numero.length; i++){
-  suma = suma + numero [i]
+  for(var i = 0; i < numeros.length; i++){
+  suma = suma + numeros [i]
   }
   return suma;
 }
@@ -138,10 +138,11 @@ return acumulador
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-  var contador = 0
-for(let i = 0; i < arreglo.lentgh; i++)
-if(arreglo [i] > 18){
-  contador ++
+  var contador = 0;
+
+for(var i = 0; i < arreglo.length; i++)
+if(arreglo[i] > 18){
+  contador = contador + 1
 }
 return contador
 }
@@ -194,14 +195,14 @@ function mesesDelAño(array) {
   // Tu código:
   var nuevoArray = [];
   for(var i = 0; i < array.length; i++)
-  if(array [i] === "Enero" || array [i] === "Marzo" || array [i] === "Noviembre"){
-  nuevoArray.push(array.length[i])
+  if(array [i] === 'Enero' || array [i] === 'Marzo' || array [i] === 'Noviembre'){
+  nuevoArray.push(array[i])
   }
   if(nuevoArray.length < 3){
     return "No se encontraron los meses pedidos"
-    }  else{
-      return nuevoArray
+    
     }
+    return nuevoArray
   }
 
 
@@ -232,13 +233,14 @@ function breakStatement(numero) {
   var suma = numero;
   for(var i = 0; i < 10; i++){
     suma = suma + 2
-    if(suma === i) break
-    else { 
+    if(suma === i) {
+    break
+  } else { 
     array.push(suma)
   }
 }
-if (i > 10){
-return "Se interrumpio la ejecucion"
+if (i < 10){
+return "Se interrumpió la ejecución"
 
 } else {
   return array
