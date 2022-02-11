@@ -40,8 +40,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array.push[elemento];
-  return array
+ array.push(elemento);
+ return array;
+  
 }
 
 
@@ -50,8 +51,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array.unshift(elemento);
+  array.unshift('elemento');
   return array;
+  
 
 }
 
@@ -61,7 +63,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-return palabras.join(" ")
+return palabras.join(' ');
 }
 
 
@@ -71,10 +73,10 @@ function arrayContiene(array, elemento) {
   // Tu código:
   for(var i = 0; i < array.length; i++){
   if(array[i] === elemento){
-  return true
+  return true;
   } 
 }
-  return false
+  return false;
 }
 
 
@@ -108,7 +110,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var MasGrande = numeros [0]
-  for(var i = 0; i < numeros.length; i++){
+  for(var i = 1; i < numeros.length; i++){
     if(numeros [i] > MasGrande){
       MasGrande = numeros [i]
     }
@@ -137,9 +139,9 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   var contador = 0
-for(var i = 0; i < arreglo.lentgh; i++)
+for(let i = 0; i < arreglo.lentgh; i++)
 if(arreglo [i] > 18){
- contador = contador + 1
+  contador ++
 }
 return contador
 }
@@ -190,15 +192,15 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  var nuevoarray = [];
+  var nuevoArray = [];
   for(var i = 0; i < array.length; i++)
   if(array [i] === "Enero" || array [i] === "Marzo" || array [i] === "Noviembre"){
-  nuevoarray.push(array.length[i])
+  nuevoArray.push(array.length[i])
   }
-  if(nuevoarray.length < 3){
+  if(nuevoArray.length < 3){
     return "No se encontraron los meses pedidos"
     }  else{
-      return nuevoarray
+      return nuevoArray
     }
   }
 
@@ -230,9 +232,8 @@ function breakStatement(numero) {
   var suma = numero;
   for(var i = 0; i < 10; i++){
     suma = suma + 2
-    if(suma === i){
-    break
-   } else { 
+    if(suma === i) break
+    else { 
     array.push(suma)
   }
 }
